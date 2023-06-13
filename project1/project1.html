@@ -4,12 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!---- reset ----->
   <link rel="stylesheet" href="../commen/reset.css">
+  <!---- font ---->
+  <link rel="stylesheet" href="../commen/font_root.css">
+
+  <!---- mobile ---->
   <link rel="stylesheet" href="./project1.css">
+  <!---- tablet ---->
+  <link rel="stylesheet" href="./tablet.css" media="(width >= 800px)">
+  <!---- favicon ---->
   <link rel="icon" href="../commen/favicon.ico" sizes="any">
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="../commen/favicon.ico">
   <link rel="manifest" href="../commen/favicon.ico">
+
+  <!---- Open Graph---->
   <meta property="og:title" content="JTS_Portfolio">
   <meta property="og:description" content="project1_mobile">
   <meta property="og:image" content="./images/kolon_main.jpg">
@@ -19,10 +29,10 @@
 
 <body>
   <header>
-    <iframe src="https://www.youtube.com/embed/JDO94anxFjI?controls=0&mute=1&loop=1&autoplay=1"
-      title="YouTube video player" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
+    <div class="header-video flex">
+      <video src="https://www.digitalworks.co.kr/dgresources/front/images/main/digitalworks_main.mp4" muted autoplay
+        loop></video>
+    </div>
     <div>
       <a href="#" class="header-img1"><img src="./images/logo.png" alt="logo"></a>
       <a href="#" class="header-img2"><img src="./images/hambuger.png" alt="hambuger_button"></a>
@@ -30,18 +40,18 @@
 
   </header>
   <!------- vision -------->
-  <article class="vision">
+  <div class="vision">
     <p>코오롱의 비전</p>
-    <h1>코오롱은 고객을 위해 끊임없이<br>진화하고 변신할 것 입니다.</h1>
+    <h1>코오롱은 고객을 위해 끊임없이 <span>진화하고 변신할 것 입니다.</span></h1>
     <a href="#"><img src="./images/vision1.png" alt="연구사진1"></a>
     <a href="#"><img src="./images/vision2.png" alt="연구사진2"></a>
-  </article>
+  </div>
 
   <!------- kolon way -------->
-  <article class="way">
+  <div class="way">
     <div>
       <h1><img src="./images/cursor.png" alt="pointer">코오롱인이 가야 할 길</h1>
-      <h2>코오롱인은 One&Only 가치를실현하고자,<br>혁신의 길을 걸어갑니다.</h2>
+      <h2>코오롱인은 One&Only 가치를실현하고자, <span>혁신의 길을 걸어갑니다.</span></h2>
       <p>One&Only Way는 코오롱인의 의사결정 기준이며, 코오롱인이 모든 일상 속에서 혁신을 실현하는 구체적인 실행방안입니다.</p>
     </div>
     <ul class="grid">
@@ -61,10 +71,10 @@
           Individual Excellence
         </a></li>
     </ul>
-  </article>
+  </div>
 
   <!------- kolon value ------->
-  <article class="value">
+  <div class="value">
     <div>
       <h1>코오롱의 핵심가치</h1>
       <p>코오롱은 각 계열사별로 구체적인 비전과 전략을 수립하여 고객에게 One&Only 가치를 전하기 위해 노력합니다.
@@ -95,10 +105,10 @@
         </a></li>
     </ul>
     <a href="#"><img src="./images/buliding1.png" alt="building1"></a>
-  </article>
+  </div>
 
   <!------- business ------->
-  <article class="business">
+  <div class="business">
     <div>
       <h1>해외 사업장</h1>
       <h2>전 세계 고객들의 First Choice 글로벌<br> 비즈니스 파트너, 코오롱</h2>
@@ -125,10 +135,10 @@
         </a></li>
     </ul>
     <a href="#"><img src="./images/bulidin2.png" alt="buliding2"></a>
-  </article>
+  </div>
 
   <!------- story ------->
-  <article class="story">
+  <div class="story">
     <div>
       <h1><a href="#"><img class="story-header" src="./images/cursor.png" alt="cursor"></a>코오롱인더스트리 FnC</h1>
       <h2>코오롱인은 One&Only 가치를실현하고자,
@@ -154,10 +164,10 @@
     </div>
     <a href="#" class="story-bottom"><img src="./images/model.png" alt="model"></a>
     <a href="#" class="story-bottom"><img src="./images/house.png" alt="house"></a>
-  </article>
+  </div>
 
   <!------- news ------->
-  <article class="news">
+  <div class="news">
     <h1>In the News</h1>
 
     <div class="box news-box1">
@@ -200,21 +210,21 @@
     <a href="#" class="button">
       <p><span>MORE +</span></p>
     </a>
-  </article>
+  </div>
 
   <!------- contact ------->
-  <article class="contact">
+  <div class="contact">
     <h1>Contact US</h1>
     <p class="contact-text">DIGITALWORKS는 디지털 관련 분야의 컨설팅, 플랫폼 구축, 마케팅 커뮤니케이션 등의
       Total Agent Service 를 지원합니다.디지털 환경에서 새로운 비즈니스에 대한 지원이 필요하시면 연락 주시기 바랍니다.</p>
     <a href="#">
       <p><span>SUBMIT</span></p>
     </a>
-  </article>
+  </div>
 
   <!------- media ------->
 
-  <article class="media">
+  <div class="media">
     <div class="media-box1">
       <h1>뉴스</h1>
       <h2>코오롱의 최신 소식</h2>
@@ -234,7 +244,7 @@
         <p><span>SUBMIT</span></p>
       </a>
     </div>
-  </article>
+  </div>
   <!------- footer ------->
   <footer>
     <div class="footer-box1">

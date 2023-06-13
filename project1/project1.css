@@ -1,20 +1,23 @@
 @charset "utf-8";
 
-@import url(../commen/font_root.css);
-
 .flex {
   display: flex;
 }
 .grid {
   display: grid;
 }
-iframe {
+.video {
   width: 100%;
-  height: 680px;
 }
 /***** header *****/
 header {
   position: relative;
+}
+.header-video {
+  overflow: hidden;
+  width: 100%;
+  height: 680px;
+  justify-content: center;
 }
 header div img {
   position: absolute;
@@ -45,6 +48,9 @@ header div .header-img2 img {
   font-weight: 500;
   margin-bottom: 40px;
 }
+.vision h1 span {
+  display: block;
+}
 .vision img {
   width: 100%;
 }
@@ -71,6 +77,9 @@ header div .header-img2 img {
   font-weight: 500;
   margin-bottom: 20px;
   line-height: 1.5;
+}
+.way div h2 span {
+  display: block;
 }
 .way div p {
   width: 250px;
@@ -146,7 +155,6 @@ header div .header-img2 img {
   margin-bottom: 20px;
 }
 .business div p {
-  width: 400px;
   font-size: var(--font-size-14);
   font-weight: 500;
   line-height: 1.5;
