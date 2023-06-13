@@ -24,14 +24,15 @@ header div img {
   top: 15px;
 }
 header div .header-img1 img {
-  width: 80px;
+  width: 120px;
   vertical-align: middle;
   z-index: 1000;
   left: 15px;
 }
 header div .header-img2 img {
-  width: 14px;
-  right: 15px;
+  width: 22px;
+  top: 18px;
+  right: 18px;
 }
 
 /***** vision *****/
@@ -114,7 +115,6 @@ header div .header-img2 img {
 .value div p {
   font-size: var(--font-size-14);
   font-weight: 400;
-  width: 350px;
   line-height: 1.5;
 }
 .value ul {
@@ -249,11 +249,11 @@ header div .header-img2 img {
   font-weight: 400;
   line-height: 1.5;
 }
-.news .button p {
+.news .button {
   margin-top: 50px;
   text-align: center;
 }
-.news .button p span {
+.news .button span {
   font-size: var(--font-size-14);
   border-bottom: 2px solid #000;
 }
@@ -288,7 +288,6 @@ header div .header-img2 img {
 /***** media ******/
 .media {
   text-align: center;
-  height: 650px;
 }
 .media h1 {
   font-size: var(--font-size-24);
@@ -322,10 +321,10 @@ header div .header-img2 img {
   margin-bottom: 10px;
 }
 .media .media-box1 {
-  height: 300px;
+  padding-bottom: 50px;
 }
 .media .media-box2 {
-  height: 350px;
+  padding-bottom: 50px;
   background-color: #f2f2f2;
 }
 
