@@ -62,9 +62,8 @@ header div .header-img2 img {
   font-size: var(--font-size-16);
 }
 .way ul {
-  margin-top: 110px;
-  display: flex;
   justify-content: space-between;
+  margin-top: 110px;
 }
 .way ul li {
   font-size: var(--font-size-16);
@@ -83,14 +82,11 @@ header div .header-img2 img {
   font-weight: 400;
 }
 .value ul {
-  padding: 60px;
-  font-size: var(--font-size-16);
-  font-weight: 700;
-  display: flex;
-  justify-content: space-between;
+  margin-bottom: 40px;
 }
 .value ul li {
-  margin-bottom: 20px;
+  font-size: var(--font-size-16);
+  font-weight: 700;
 }
 
 /****** business ******/
@@ -108,17 +104,12 @@ header div .header-img2 img {
   font-size: var(--font-size-16);
 }
 .business ul {
-  padding: 60px;
+  margin-bottom: 40px;
 }
 .business ul li {
-  font-size: var(--font-size-18);
+  font-size: var(--font-size-16);
   font-weight: 700;
   margin-bottom: 20px;
-}
-.business ul li:nth-child(4) {
-  grid-row: 1 / 2;
-  grid-column: 4 / 5;
-  text-align: center;
 }
 /***** story *****/
 

@@ -40,14 +40,14 @@ header div .header-img2 img {
   text-align: center;
 }
 .vision p {
-  margin: 40px 0;
-  font-size: var(--font-size-12);
+  margin: 40px 0 20px;
+  font-size: var(--font-size-14);
   font-weight: 400;
 }
 .vision h1 {
   font-size: var(--font-size-20);
   font-weight: 500;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 .vision h1 span {
   display: block;
@@ -62,7 +62,6 @@ header div .header-img2 img {
   background-color: #000;
   color: #fff;
   padding: 40px;
-  height: 460px;
 }
 .way div h1 {
   font-size: var(--font-size-26);
@@ -83,24 +82,20 @@ header div .header-img2 img {
   display: block;
 }
 .way div p {
-  width: 250px;
   font-size: var(--font-size-14);
   font-weight: 400;
   color: #ddd;
   line-height: 1.5;
 }
 .way ul {
-  margin-top: 130px;
+  flex-wrap: wrap;
+  margin-top: 150px;
   text-align: left;
 }
 .way ul li {
   font-size: var(--font-size-16);
-  margin-top: 10px;
+  margin: 0 17px 20px 0;
 }
-.way ul li:nth-child(2) {
-  grid-column: 2 / 3;
-}
-
 /***** value *****/
 
 .value div {
@@ -118,22 +113,16 @@ header div .header-img2 img {
   line-height: 1.5;
 }
 .value ul {
-  padding: 40px;
-  font-size: var(--font-size-14);
-  font-weight: 400;
-  grid-template: repeat(4, 1fr), repeat(2, 1fr);
+  margin: 0 auto;
+  flex-wrap: wrap;
+  width: 90%;
 }
 .value ul li {
-  margin-bottom: 20px;
+  font-size: var(--font-size-14);
+  font-weight: 400;
+  margin: 0 0 20px 20px;
 }
-.value ul li:nth-child(3) {
-  grid-row: 1 / 2;
-  grid-column: 3 / 5;
-}
-.value ul li:nth-child(4) {
-  grid-column: 4 / 5;
-  grid-row: 1 / 2;
-}
+
 .value img {
   width: 100%;
 }
@@ -161,17 +150,16 @@ header div .header-img2 img {
   padding-right: 40px;
 }
 .business ul {
-  padding: 40px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  width: 90%;
 }
 .business ul li {
   font-size: var(--font-size-14);
   font-weight: 400;
-  margin-bottom: 20px;
+  margin: 0 0 20px 20px;
 }
-.business ul li:nth-child(3) {
-  grid-row: 1 / 2;
-  grid-column: 3 / 5;
-}
+
 .business img {
   width: 100%;
 }
@@ -200,32 +188,27 @@ header div .header-img2 img {
   margin-bottom: 20px;
 }
 .story div p {
-  width: 250px;
   font-size: var(--font-size-14);
   font-weight: 400;
   color: #ddd;
   line-height: 1.5;
 }
 .story ul {
+  flex-wrap: wrap;
   margin-top: 150px;
   text-align: left;
 }
 .story ul li {
   font-size: var(--font-size-16);
-  margin-top: 10px;
-}
-.story ul li:nth-child(2) {
-  grid-column: 2 / 3;
+  margin: 0 17px 20px 0;
 }
 .story .story-bottom img {
   width: 100%;
 }
-
 /****** news ******/
 
 .news {
   padding: 60px;
-  height: 850px;
 }
 .news h1 {
   font-size: var(--font-size-30);
