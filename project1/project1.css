@@ -52,12 +52,11 @@ header div .header-img2 img {
 .vision h1 span {
   display: block;
 }
-.vision img {
-  width: 100%;
-}
 
 /***** kolon way ******/
-
+.way-top img {
+  width: 100%;
+}
 .way {
   background-color: #000;
   color: #fff;
@@ -95,7 +94,9 @@ header div .header-img2 img {
 .way ul li {
   font-size: var(--font-size-16);
   margin: 0 17px 20px 0;
+  border-bottom: 1px solid #fff;
 }
+
 /***** value *****/
 
 .value div {
@@ -113,14 +114,15 @@ header div .header-img2 img {
   line-height: 1.5;
 }
 .value ul {
-  margin: 0 auto;
+  margin: 0 40px 40px;
   flex-wrap: wrap;
   width: 90%;
+  gap: 20px;
 }
 .value ul li {
   font-size: var(--font-size-14);
   font-weight: 400;
-  margin: 0 0 20px 20px;
+  border-bottom: 1px solid #000;
 }
 
 .value img {
@@ -128,83 +130,80 @@ header div .header-img2 img {
 }
 
 /****** business ******/
-
-.business div {
+.business .business-top {
   padding: 40px;
-  height: 360px;
 }
-.business div h1 {
+.business .business-top h1 {
   font-size: var(--font-size-24);
   font-weight: 700;
   margin-bottom: 20px;
 }
-.business div h2 {
+.business .business-top h2 {
   font-size: var(--font-size-14);
   font-weight: 700;
   margin-bottom: 20px;
 }
-.business div p {
+.business .business-top p {
   font-size: var(--font-size-14);
   font-weight: 500;
   line-height: 1.5;
   padding-right: 40px;
 }
-.business ul {
-  margin: 0 auto;
+.business .business-top ul {
+  margin: 70px 0 0;
   flex-wrap: wrap;
   width: 90%;
+  text-align: left;
+  gap: 20px;
 }
-.business ul li {
+.business .business-top ul li {
   font-size: var(--font-size-14);
   font-weight: 400;
-  margin: 0 0 20px 20px;
+  border-bottom: 1px solid #000;
 }
-
-.business img {
+.business .business-bottom img {
   width: 100%;
 }
 
 /***** story *****/
 
-.story {
+.story .story-top {
   background-color: #000;
   color: #fff;
-}
-.story div {
   padding: 40px;
 }
-.story div h1 {
+.story .story-top .story-h1 {
+  width: 20px;
+  margin: 5px 10px 0 0;
+}
+.story .story-top h1 {
   font-size: var(--font-size-26);
   font-weight: 700;
   margin-bottom: 20px;
 }
-.story .story-header {
-  width: 20px;
+.story .story-top h2 {
   margin: 5px 10px 0 0;
 }
-.story div h2 {
-  font-size: var(--font-size-14);
-  font-weight: 500;
-  margin-bottom: 20px;
-}
-.story div p {
+.story .story-top p {
   font-size: var(--font-size-14);
   font-weight: 400;
   color: #ddd;
   line-height: 1.5;
 }
-.story ul {
+.story .story-top ul {
   flex-wrap: wrap;
   margin-top: 150px;
   text-align: left;
 }
-.story ul li {
+.story .story-top ul li {
   font-size: var(--font-size-16);
   margin: 0 17px 20px 0;
+  border-bottom: 1px solid #fff;
 }
-.story .story-bottom img {
+.story-bottom img {
   width: 100%;
 }
+
 /****** news ******/
 
 .news {
@@ -215,6 +214,9 @@ header div .header-img2 img {
   font-weight: bold;
   text-align: center;
   margin-bottom: 30px;
+}
+.news .box {
+  padding-bottom: 50px;
 }
 .news .box h3 {
   font-size: var(--font-size-16);
@@ -233,7 +235,6 @@ header div .header-img2 img {
   line-height: 1.5;
 }
 .news .button {
-  margin-top: 50px;
   text-align: center;
 }
 .news .button span {

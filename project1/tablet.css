@@ -61,10 +61,6 @@ header div .header-img2 img {
 .way div p {
   font-size: var(--font-size-16);
 }
-.way ul {
-  justify-content: space-between;
-  margin-top: 110px;
-}
 .way ul li {
   font-size: var(--font-size-16);
 }
@@ -91,59 +87,52 @@ header div .header-img2 img {
 
 /****** business ******/
 
-.business div {
-  padding: 60px;
-}
-.business div h1 {
+.business .business-top h1 {
   font-size: var(--font-size-38);
 }
-.business div h2 {
+.business .business-top h2 {
   font-size: var(--font-size-18);
 }
-.business div p {
+.business .business-top p {
   font-size: var(--font-size-16);
 }
-.business ul {
-  margin-bottom: 40px;
-}
-.business ul li {
+.business .business-top ul li {
   font-size: var(--font-size-16);
   font-weight: 700;
-  margin-bottom: 20px;
 }
-/***** story *****/
 
-.story div {
+/***** story *****/
+.story .story-top {
   padding: 60px;
 }
-.story div h1 {
-  font-size: var(--font-size-38);
-}
-.story .story-header {
+.story .story-top .story-h1 {
   width: 25px;
   margin: 10px 10px 0 0;
 }
-.story div h2 {
+.story .story-top h1 {
+  font-size: var(--font-size-38);
+}
+.story .story-top h2 {
   font-size: var(--font-size-16);
 }
-.story div p {
+.story .story-top p {
   font-size: var(--font-size-16);
 }
-.story ul {
-  display: flex;
-  justify-content: space-between;
-}
+
 /****** news ******/
 
 .news {
   padding: 80px;
-  height: 850px;
+  height: auto;
 }
 .news h1 {
   font-size: var(--font-size-30);
   font-weight: bold;
   text-align: center;
   margin-bottom: 30px;
+}
+.news .box {
+  padding-bottom: 50px;
 }
 .news .box h3 {
   font-size: var(--font-size-18);
@@ -162,7 +151,6 @@ header div .header-img2 img {
   line-height: 1.5;
 }
 .news .button {
-  margin-top: 60px;
   text-align: center;
 }
 .news .button span {
