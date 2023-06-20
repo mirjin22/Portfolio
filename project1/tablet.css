@@ -66,14 +66,14 @@ header div .header-img2 img {
 }
 /***** value *****/
 
-.value div {
+.value .value-top {
   padding: 60px;
 }
-.value div h1 {
+.value .value-top h1 {
   font-size: var(--font-size-38);
   font-weight: 700;
 }
-.value div p {
+.value .value-top p {
   font-size: var(--font-size-16);
   font-weight: 400;
 }
@@ -194,7 +194,6 @@ header div .header-img2 img {
 }
 
 /***** footer ******/
-
 .footer-box1,
 .footer-box2 {
   margin-left: 100px;
@@ -204,7 +203,7 @@ footer h1 {
   font-weight: 700;
   margin-bottom: 20px;
 }
-footer a p {
+footer p a {
   font-size: var(--font-size-18);
   font-weight: 500;
   margin: 80px 100px;

@@ -56,7 +56,9 @@ header div .header-img2 img {
 /***** kolon way ******/
 .way-top img {
   width: 100%;
+  cursor: pointer;
 }
+
 .way {
   background-color: #000;
   color: #fff;
@@ -96,28 +98,31 @@ header div .header-img2 img {
   margin: 0 17px 20px 0;
   border-bottom: 1px solid #fff;
 }
-
+.way-top h1,
+.way-top p, .way-top span{
+  display: none;
+}
 /***** value *****/
 
-.value div {
+.value .value-top {
   padding: 40px;
   height: 360px;
 }
-.value div h1 {
+.value .value-top h1 {
   font-size: var(--font-size-24);
   font-weight: 700;
   margin-bottom: 20px;
 }
-.value div p {
+.value .value-top p {
   font-size: var(--font-size-14);
   font-weight: 400;
   line-height: 1.5;
 }
 .value ul {
-  margin: 0 40px 40px;
   flex-wrap: wrap;
   width: 90%;
   gap: 20px;
+  padding: 40px;
 }
 .value ul li {
   font-size: var(--font-size-14);
@@ -127,8 +132,11 @@ header div .header-img2 img {
 
 .value img {
   width: 100%;
+  cursor: pointer;
 }
-
+.value .buliding1 .buliding1-txt {
+  display: none;
+}
 /****** business ******/
 .business .business-top {
   padding: 40px;
@@ -163,6 +171,10 @@ header div .header-img2 img {
 }
 .business .business-bottom img {
   width: 100%;
+  cursor: pointer;
+}
+.business .business-bottom .business-txt {
+  display: none;
 }
 
 /***** story *****/
@@ -202,6 +214,13 @@ header div .header-img2 img {
 }
 .story-bottom img {
   width: 100%;
+  cursor: pointer;
+}
+.story .story-bottom .story-box1 .story-txt1 {
+  display: none;
+}
+.story .story-bottom .story-box2 .story-txt2 {
+  display: none;
 }
 
 /****** news ******/
@@ -260,11 +279,14 @@ header div .header-img2 img {
   margin: 0 50px;
   line-height: 1.7;
 }
-.contact a p {
+.contact p a {
   font-size: var(--font-size-14);
   margin-top: 50px;
 }
-.contact a p span {
+.contact-btn {
+  margin-top: 80px;
+}
+.contact p a span {
   border: 2px solid #fff;
   padding: 10px 60px;
 }
@@ -287,7 +309,7 @@ header div .header-img2 img {
   line-height: 1.7;
   font-size: var(--font-size-14);
 }
-.media a p {
+.media p a {
   margin-top: 50px;
 }
 .media p span {
@@ -298,7 +320,7 @@ header div .header-img2 img {
   margin-top: 150px;
 }
 .media .media-box1 h1 {
-  margin: 60px 0 10px 0;
+  margin: 50px 0 10px 0;
 }
 .media .media-box2 h1 {
   padding-top: 50px;
@@ -311,9 +333,14 @@ header div .header-img2 img {
   padding-bottom: 50px;
   background-color: #f2f2f2;
 }
+.media-btn {
+  margin-top: 60px;
+}
 
 /***** footer ******/
-
+.footer-main {
+  display: none;
+}
 footer {
   background-color: #000;
   color: #fff;
@@ -337,18 +364,20 @@ footer ul li span {
 footer .footer-box1 h1 {
   margin-top: 30px;
 }
+footer .footer-box2 {
+  margin-bottom: 80px;
+}
 footer .footer-box2 h1 {
   margin-top: 70px;
 }
 footer .footer-box2 ul li:last-child {
   margin-top: 20px;
 }
-footer a p {
+footer p a {
   font-size: var(--font-size-18);
   font-weight: 500;
-  margin: 80px 0;
-}
-footer a p span {
   border: 1px solid #fff;
   padding: 8px 15px;
+  border-radius: 30px;
 }
+
