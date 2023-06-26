@@ -89,7 +89,6 @@ header div .header-img2 img {
 .way-top img {
   width: 50%;
   transition: 1s;
-  transform: translateX(75deg);
 }
 .way-top .way-img1 {
   width: 100%;
@@ -111,7 +110,7 @@ header div .header-img2 img {
   font-size: var(--font-size-30);
   width: 40%;
 }
-.way-top .way-img1 span{
+.way-top .way-img1 span {
   position: absolute;
   left: 50px;
   bottom: 50px;
@@ -158,7 +157,7 @@ header div .header-img2 img {
   font-size: var(--font-size-30);
   width: 40%;
 }
-.way-top .way-img2 span{
+.way-top .way-img2 span {
   position: absolute;
   left: 50px;
   bottom: 50px;
@@ -242,19 +241,19 @@ header div .header-img2 img {
   opacity: 1;
   transition: 0.3s;
 }
-.value .buliding1 .buliding1-txt h1{
+.value .buliding1 .buliding1-txt h1 {
   position: absolute;
   top: 80px;
   left: 50px;
   font-size: var(--font-size-20);
 }
-.value .buliding1 .buliding1-txt p{
+.value .buliding1 .buliding1-txt p {
   font-size: var(--font-size-48);
   position: absolute;
   left: 50px;
   top: 160px;
 }
-.value .buliding1 .buliding1-txt span{
+.value .buliding1 .buliding1-txt span {
   position: absolute;
   left: 50px;
   bottom: 80px;
@@ -305,19 +304,19 @@ header div .header-img2 img {
   height: 100%;
   display: block;
 }
-.business .business-bottom .business-txt h1{
+.business .business-bottom .business-txt h1 {
   position: absolute;
   top: 80px;
   left: 50px;
   font-size: var(--font-size-20);
 }
-.business .business-bottom .business-txt p{
+.business .business-bottom .business-txt p {
   position: absolute;
   top: 160px;
   left: 50px;
   font-size: var(--font-size-48);
 }
-.business .business-bottom .business-txt span{
+.business .business-bottom .business-txt span {
   position: absolute;
   bottom: 80px;
   left: 50px;
@@ -337,9 +336,8 @@ header div .header-img2 img {
   height: 100%;
   cursor: pointer;
 }
-.story .story-bottom img{
+.story .story-bottom img {
   transition: 1s;
-  transform: translateX(-125deg);
 }
 .story .story-bottom .story-box1:hover img {
   transition: 1s;
@@ -361,19 +359,19 @@ header div .header-img2 img {
   height: 100%;
   display: block;
 }
-.story .story-bottom .story-box1 .story-txt1 h1{
+.story .story-bottom .story-box1 .story-txt1 h1 {
   position: absolute;
   top: 50px;
   left: 50px;
   font-size: var(--font-size-18);
 }
-.story .story-bottom .story-box1 .story-txt1 p{
+.story .story-bottom .story-box1 .story-txt1 p {
   position: absolute;
   top: 100px;
   left: 50px;
   font-size: var(--font-size-30);
 }
-.story .story-bottom .story-box1 .story-txt1 span{
+.story .story-bottom .story-box1 .story-txt1 span {
   position: absolute;
   bottom: 50px;
   left: 50px;
@@ -406,19 +404,19 @@ header div .header-img2 img {
   height: 100%;
   display: block;
 }
-.story .story-bottom .story-box2 .story-txt2 h1{
+.story .story-bottom .story-box2 .story-txt2 h1 {
   position: absolute;
   top: 50px;
   left: 50px;
   font-size: var(--font-size-18);
 }
-.story .story-bottom .story-box2 .story-txt2 p{
+.story .story-bottom .story-box2 .story-txt2 p {
   position: absolute;
   top: 100px;
   left: 50px;
   font-size: var(--font-size-30);
 }
-.story .story-bottom .story-box2 .story-txt2 span{
+.story .story-bottom .story-box2 .story-txt2 span {
   position: absolute;
   bottom: 50px;
   left: 50px;
@@ -470,7 +468,7 @@ header div .header-img2 img {
   font-size: var(--font-size-18);
   background-color: #000;
   color: #fff;
-  padding: 10px 200px;
+  padding: 10px 60px;
 }
 .media-box1,
 .media-box2 {
@@ -510,7 +508,7 @@ footer p a {
 .footer-box2 {
   height: 200px;
 }
-footer p:hover a{
+footer p:hover a {
   transition: 0.5s;
   background-color: #fff;
   color: #000;

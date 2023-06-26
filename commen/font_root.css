@@ -2,6 +2,7 @@
 
 body {
   font-family: "pretendard", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 :root {
@@ -15,6 +16,11 @@ body {
   --font-size-26: 26px;
   --font-size-28: 28px;
   --font-size-30: 30px;
+  --font-size-34: 34px;
   --font-size-38: 38px;
+  --font-size-40: 40px;
   --font-size-48: 48px;
+  --font-size-60: 60px;
+  --font-size-78: 78px;
+  --font-size-90: 90px;
 }
