@@ -1,3 +1,4 @@
+// header-menu
 document.querySelector(".header-menu h1").addEventListener("click", (e) => {
   document.querySelector(".ani-top").scrollIntoView({ behavior: "smooth" });
 });
@@ -21,3 +22,5 @@ document
   .addEventListener("click", (e) => {
     document.querySelector("footer").scrollIntoView({ behavior: "smooth" });
   });
+
+let pre = document.querySelector(".project-envent li");
