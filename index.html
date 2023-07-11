@@ -4,19 +4,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!----- openGraph ----->
+  <meta property="og:title" content="메신저나 SNS 제목 부분에 출력">
+  <meta property="og:description" content="이곳에 작성된 내용이 메신저나 SNS 설명 부분에 출력">
+  <meta property="og:image" content="출력할 이미지 경로">
+  <meta property="og:url" content="경로">
   <!----- reset ----->
-  <link rel="stylesheet" href="./commen/minireset.min.css">
+  <link rel="stylesheet" href="./common/minireset.min.css">
   <!----- font ----->
-  <link rel="stylesheet" href="./commen/font_root.css">
+  <link rel="stylesheet" href="./common/font_root.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
   <!----- favicon ----->
-  <link rel="icon" href="./commen/index.ico" sizes="any">
-  <link rel="apple-touch-icon" href="./commen/index.ico">
+  <link rel="icon" href="./common/index.ico" sizes="any">
+  <link rel="apple-touch-icon" href="./common/index.ico">
   <!----- style ------->
   <link rel="stylesheet" href="./style.css">
   <!----- Js ------->
   <script defer src="./index.js"></script>
-  <script src="./commen/jquery-3.7.0.min.js"></script>
-  <script src="./commen/jquery-ui.min.js"></script>
+  <script src="./common/jquery-3.7.0.min.js"></script>
+  <script src="./common/jquery-ui.min.js"></script>
 
   <title>index</title>
   <style>
@@ -32,8 +41,10 @@
         <h1><img src="./images/global.png" alt="상단 글자와 함께 움직이는 이미지 입니다.">OPEN PORTFOLIO</h1>
         <h1><img src="./images/global.png" alt="상단 글자와 함께 움직이는 이미지 입니다.">OPEN PORTFOLIO</h1>
         <h1><img src="./images/global.png" alt="상단 글자와 함께 움직이는 이미지 입니다.">OPEN PORTFOLIO</h1>
+        <h1><img src="./images/global.png" alt="상단 글자와 함께 움직이는 이미지 입니다.">OPEN PORTFOLIO</h1>
       </div>
       <div class="top-right">
+        <h1><img src="./images/global.png" alt="상단 글자와 함께 움직이는 이미지 입니다.">OPEN PORTFOLIO</h1>
         <h1><img src="./images/global.png" alt="상단 글자와 함께 움직이는 이미지 입니다.">OPEN PORTFOLIO</h1>
         <h1><img src="./images/global.png" alt="상단 글자와 함께 움직이는 이미지 입니다.">OPEN PORTFOLIO</h1>
         <h1><img src="./images/global.png" alt="상단 글자와 함께 움직이는 이미지 입니다.">OPEN PORTFOLIO</h1>
@@ -57,7 +68,7 @@
     </p>
     <div class="header-video flex">
       <div class="video-wrapper">
-        <video src="./video/main.mp4" muted autoplay loop></video>
+        <video src="./images/main.mp4" muted autoplay loop></video>
       </div>
     </div>
   </header>
@@ -118,7 +129,7 @@
     </div>
   </div>
   <div class="text-video">
-    <video src="./video/TEXT.mp4" autoplay loop muted></video>
+    <video src="./images/TEXT.mp4" autoplay loop muted></video>
     <p class="video-tag1">어두웠던 하늘이<br>
       다시 <span>맑아지듯</span><br>
     </p>
@@ -129,15 +140,17 @@
   <div class="project flex">
     <ul class="project-idx grid">
       <li><a href="#">PROJECT1</a></li>
-      <li><a href="#">PROJECT2</a></li>
+      <li><img src="./images/mobil_phone.png" alt="핸드폰 이미지 입니다." class="project-img">
+      </li>
 
-      <li><a href="./project1/project1.html">반응웹</a></li>
+      <li><a href="./반응형웹/project1.html">반응형웹</a></li>
       </a>
-      <li><a href="#">PROJECT3</a></li>
+      <li><a href="./Team project/index.html">Team project</a></li>
       <li><a href="#">PROJECT4</a></li>
       <li><a href="#">PROJECT5</a></li>
     </ul>
     <ul class="project-event grid">
+      <span class="abc"></span>
       <li></li>
       <li></li>
       <li></li>

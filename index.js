@@ -23,4 +23,18 @@ document
     document.querySelector("footer").scrollIntoView({ behavior: "smooth" });
   });
 
-let pre = document.querySelector(".project-envent li");
+//project
+
+const footer = document.querySelector("footer");
+const prjevt = document.querySelector(".project-event li");
+const prjaft = document.querySelector(".project .project-event .abc");
+$(window).on("scroll", () => {
+  if (scrollY > prjevt.offsetTop) {
+    $(".project-event .abc").height(`${prjevt.offsetTop + 0}`);
+  } else {
+    $(".project-event .abc").css({
+      backgroundColor: " #29f2ff",
+    });
+  }
+  console.log(prjevt.offsetTop);
+});
