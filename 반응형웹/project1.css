@@ -19,9 +19,6 @@ header {
   height: 680px;
   justify-content: center;
 }
-.header-video video {
-  width: 100%;
-}
 header div img {
   position: absolute;
   top: 15px;
