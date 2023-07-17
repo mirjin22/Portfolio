@@ -114,6 +114,97 @@ header .header-txt .header-img img:nth-child(3) {
 
 /**** project *****/
 .project-container .box1 {
-  width: 50%;
+  width: 30%;
   margin: 0 auto;
+  text-align: right;
+}
+.project-container .box1 li{
+  font-size: var(--font-size-34);
+  color: #29f2ff;
+  font-weight: 700;
+}
+/* .project-container .box1 li:nth-child(2){
+  height: 43vh;
+}
+.project-container .box1 li:nth-child(3){
+  height: 25vh;
+} */
+.project-container .box2{
+  width: 35%;
+  margin: 0 auto;
+}
+.project-container .box2 .project-inner{
+  height: 45vh;
+  width: 85%;
+  font-weight: 400;
+}
+/* .project-container .box2 .item2{
+  height: 43vh;
+}
+.project-container .box2 .item3{
+  height: 25vh;
+} */
+.project-container .box2 .item4{
+  width: 95%;
+}
+.project-container .box2 .project-inner h2{
+  font-size: var(--font-size-22);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.project-container .box2 .project-inner p{
+  font-size: var(--font-size-22);
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.project-container .box2 ul li {
+  font-size: var(--font-size-22);
+  font-weight: 400;
+  margin-left: 20px;
+  list-style:disc;
+  line-height: 180%;
+}
+
+/***** swot *****/
+
+.swot-container{
+  width: 80%;
+  margin: 0 auto;
+}
+.swot-container h1{
+  font-size: var(--font-size-40);
+  font-weight: 700;
+  color: #29f2ff;
+  margin-bottom: 85px;
+}
+.swot-container .swot-wrapper{
+  justify-content: space-around;
+}
+.swot-container .swot-wrapper .swot-inner{
+  width: 700px;
+  height: 300px;
+  background-color: #fff;
+  margin-bottom: 85px;
+  border-radius: 80px;
+  text-align: center;
+  box-shadow:
+  0.8px 0.8px 43.9px rgba(148,142,227, 0.3),
+  -1.3px -1.3px 84.6px rgba(77,109,255, 0.5);
+}
+.swot-container .swot-wrapper .swot-inner h2{
+  font-size: var(--font-size-60);
+  color: #4E6DFE;
+  margin-top: 40px;
+}
+.swot-container .swot-wrapper .swot-inner ul{
+  color: #000;
+  margin-top: 40px;
+}
+.swot-container .swot-wrapper .swot-inner ul li{
+  width: 70%;
+  margin: 0 auto;
+  font-size: var(--font-size-20);
+  text-align: left;
+  line-height: 150%;
+  list-style: disc;
 }
