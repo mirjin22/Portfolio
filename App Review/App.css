@@ -1,0 +1,119 @@
+@import "utf-8";
+
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+body {
+  font-family: var(--kor-font);
+  background-color: #000;
+  color: #fff;
+}
+
+.ani-top {
+  background-color: #29f2ff;
+  height: 40px;
+  overflow: hidden;
+  font-size: var(--font-size-18);
+  font-family: var(--eng-font);
+  color: #000;
+}
+.ani-top img {
+  width: 10%;
+  margin: 9px 10px 0;
+}
+.ani-top h1 {
+  line-height: 42px;
+}
+.ani-middle {
+  width: 200%;
+  display: flex;
+  animation: ani_1 infinite linear 30s;
+}
+.top-left,
+.top-right {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+@keyframes ani_1 {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+header .header-menu {
+  justify-content: space-between;
+  position: fixed;
+  top: -30px;
+  width: 100%;
+  z-index: 1;
+}
+header .header-menu.active {
+  display: none;
+}
+header .header-menu h1 {
+  margin: 80px 150px;
+  border: 2px solid #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 16px 40px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: 0.5s;
+  font-weight: 700;
+}
+header .header-menu h1:hover {
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+}
+header .header-menu ul {
+  margin: 80px 150px;
+  gap: 20px;
+  z-index: 100;
+}
+header .header-menu ul li {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  padding: 16px 40px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: 0.5s;
+  font-weight: 700;
+}
+header .header-menu ul li:hover {
+  background-color: #fff;
+  color: #000;
+}
+header .header-txt {
+  font-family: var(--kor-font);
+  font-size: var(--font-size-30);
+  margin: 150px 0 0 150px;
+  height: 80vh;
+  position: relative;
+  min-width: 1600px;
+  overflow: hidden;
+}
+header .header-txt span {
+  font-weight: 700;
+  font-size: var(--font-size-40);
+}
+header .header-txt .header-img {
+  position: absolute;
+  top: 0;
+  left: 40%;
+}
+header .header-txt .header-img img:nth-child(3) {
+  position: absolute;
+  top: -10px;
+}
+
+/**** project *****/
+.project-container .box1 {
+  width: 50%;
+  margin: 0 auto;
+}
