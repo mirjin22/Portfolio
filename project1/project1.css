@@ -1,0 +1,383 @@
+@charset "utf-8";
+
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.video {
+  width: 100%;
+}
+/***** header *****/
+header {
+  position: relative;
+}
+.header-video {
+  overflow: hidden;
+  width: 100%;
+  height: 680px;
+  justify-content: center;
+}
+header div img {
+  position: absolute;
+  top: 15px;
+}
+header div .header-img1 img {
+  width: 120px;
+  vertical-align: middle;
+  z-index: 1000;
+  left: 15px;
+}
+header div .header-img2 img {
+  width: 22px;
+  top: 18px;
+  right: 18px;
+}
+
+/***** vision *****/
+.vision {
+  text-align: center;
+}
+.vision p {
+  margin: 40px 0 20px;
+  font-size: var(--font-size-14);
+  font-weight: 400;
+}
+.vision h1 {
+  font-size: var(--font-size-20);
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+.vision h1 span {
+  display: block;
+}
+
+/***** kolon way ******/
+.way-top img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.way {
+  background-color: #000;
+  color: #fff;
+  padding: 40px;
+}
+.way div h1 {
+  font-size: var(--font-size-26);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.way img {
+  width: 20px;
+  margin: 5px 10px 0 0;
+}
+.way div h2 {
+  font-size: var(--font-size-14);
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+.way div h2 span {
+  display: block;
+}
+.way div p {
+  font-size: var(--font-size-14);
+  font-weight: 400;
+  color: #ddd;
+  line-height: 1.5;
+}
+.way ul {
+  flex-wrap: wrap;
+  margin-top: 150px;
+  text-align: left;
+}
+.way ul li {
+  font-size: var(--font-size-16);
+  margin: 0 17px 20px 0;
+  border-bottom: 1px solid #fff;
+}
+.way-top h1,
+.way-top p, .way-top span{
+  display: none;
+}
+/***** value *****/
+
+.value .value-top {
+  padding: 40px;
+  height: 360px;
+}
+.value .value-top h1 {
+  font-size: var(--font-size-24);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.value .value-top p {
+  font-size: var(--font-size-14);
+  font-weight: 400;
+  line-height: 1.5;
+}
+.value ul {
+  flex-wrap: wrap;
+  width: 90%;
+  gap: 20px;
+  padding: 40px;
+}
+.value ul li {
+  font-size: var(--font-size-14);
+  font-weight: 400;
+  border-bottom: 1px solid #000;
+}
+
+.value img {
+  width: 100%;
+  cursor: pointer;
+}
+.value .buliding1 .buliding1-txt {
+  display: none;
+}
+/****** business ******/
+.business .business-top {
+  padding: 40px;
+}
+.business .business-top h1 {
+  font-size: var(--font-size-24);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.business .business-top h2 {
+  font-size: var(--font-size-14);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.business .business-top p {
+  font-size: var(--font-size-14);
+  font-weight: 500;
+  line-height: 1.5;
+  padding-right: 40px;
+}
+.business .business-top ul {
+  margin: 70px 0 0;
+  flex-wrap: wrap;
+  width: 90%;
+  text-align: left;
+  gap: 20px;
+}
+.business .business-top ul li {
+  font-size: var(--font-size-14);
+  font-weight: 400;
+  border-bottom: 1px solid #000;
+}
+.business .business-bottom img {
+  width: 100%;
+  cursor: pointer;
+}
+.business .business-bottom .business-txt {
+  display: none;
+}
+
+/***** story *****/
+
+.story .story-top {
+  background-color: #000;
+  color: #fff;
+  padding: 40px;
+}
+.story .story-top .story-h1 {
+  width: 20px;
+  margin: 5px 10px 0 0;
+}
+.story .story-top h1 {
+  font-size: var(--font-size-26);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.story .story-top h2 {
+  margin: 5px 10px 0 0;
+}
+.story .story-top p {
+  font-size: var(--font-size-14);
+  font-weight: 400;
+  color: #ddd;
+  line-height: 1.5;
+}
+.story .story-top ul {
+  flex-wrap: wrap;
+  margin-top: 150px;
+  text-align: left;
+}
+.story .story-top ul li {
+  font-size: var(--font-size-16);
+  margin: 0 17px 20px 0;
+  border-bottom: 1px solid #fff;
+}
+.story-bottom img {
+  width: 100%;
+  cursor: pointer;
+}
+.story .story-bottom .story-box1 .story-txt1 {
+  display: none;
+}
+.story .story-bottom .story-box2 .story-txt2 {
+  display: none;
+}
+
+/****** news ******/
+
+.news {
+  padding: 60px;
+}
+.news h1 {
+  font-size: var(--font-size-30);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.news .box {
+  padding-bottom: 50px;
+}
+.news .box h3 {
+  font-size: var(--font-size-16);
+  margin: 50px 0 10px;
+  font-weight: 500;
+  color: #4a6dd8;
+}
+.news .box h2 {
+  font-size: var(--font-size-24);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.news .box p {
+  font-size: var(--font-size-12);
+  font-weight: 400;
+  line-height: 1.5;
+}
+.news .button {
+  text-align: center;
+}
+.news .button span {
+  font-size: var(--font-size-14);
+  border-bottom: 2px solid #000;
+}
+
+/***** contact ******/
+
+.contact {
+  background: url(./images/mobil.png) fixed 30% / cover;
+  color: #fff;
+  height: 350px;
+  text-align: center;
+}
+.contact h1 {
+  font-size: var(--font-size-24);
+  font-weight: 700;
+  padding: 40px 0;
+}
+.contact .contact-text {
+  font-size: var(--font-size-14);
+  margin: 0 50px;
+  line-height: 1.7;
+}
+.contact p a {
+  font-size: var(--font-size-14);
+  margin-top: 50px;
+}
+.contact-btn {
+  margin-top: 80px;
+}
+.contact p a span {
+  border: 2px solid #fff;
+  padding: 10px 60px;
+}
+
+/***** media ******/
+.media {
+  text-align: center;
+}
+.media h1 {
+  font-size: var(--font-size-24);
+  font-weight: 700;
+}
+.media h2 {
+  font-size: var(--font-size-16);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.media p {
+  padding: 0 40px;
+  line-height: 1.7;
+  font-size: var(--font-size-14);
+}
+.media p a {
+  margin-top: 50px;
+}
+.media p span {
+  font-size: var(--font-size-16);
+  background-color: #000;
+  color: #fff;
+  padding: 10px 60px;
+  margin-top: 150px;
+}
+.media .media-box1 h1 {
+  margin: 50px 0 10px 0;
+}
+.media .media-box2 h1 {
+  padding-top: 50px;
+  margin-bottom: 10px;
+}
+.media .media-box1 {
+  padding-bottom: 50px;
+}
+.media .media-box2 {
+  padding-bottom: 50px;
+  background-color: #f2f2f2;
+}
+.media-btn {
+  margin-top: 60px;
+}
+
+/***** footer ******/
+.footer-main {
+  display: none;
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  height: 680px;
+  padding: 40px;
+}
+footer h1 {
+  font-size: var(--font-size-16);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+footer ul li {
+  font-size: var(--font-size-14);
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+footer ul li span {
+  border-bottom: 1px solid #fff;
+}
+footer .footer-box1 h1 {
+  margin-top: 30px;
+}
+footer .footer-box2 {
+  margin-bottom: 80px;
+}
+footer .footer-box2 h1 {
+  margin-top: 70px;
+}
+footer .footer-box2 ul li:last-child {
+  margin-top: 20px;
+}
+footer p a {
+  font-size: var(--font-size-18);
+  font-weight: 500;
+  border: 1px solid #fff;
+  padding: 8px 15px;
+  border-radius: 30px;
+}
+
