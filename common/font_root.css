@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+:root {
+  --kor-font: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  --eng-font: "Josefin Sans", sans-serif;
+  --font-size-12: 12px;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-18: 18px;
+  --font-size-20: 20px;
+  --font-size-22: 22px;
+  --font-size-24: 24px;
+  --font-size-25: 25px;
+  --font-size-26: 26px;
+  --font-size-28: 28px;
+  --font-size-30: 30px;
+  --font-size-34: 34px;
+  --font-size-38: 38px;
+  --font-size-40: 40px;
+  --font-size-48: 48px;
+  --font-size-60: 60px;
+  --font-size-78: 78px;
+  --font-size-90: 90px;
+}
