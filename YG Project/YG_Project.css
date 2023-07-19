@@ -267,7 +267,19 @@ header .header-txt {
   width: 40%;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 300px;
+  margin-bottom: 200px;
+}
+.Guide-line{
+  font-size: var(--font-size-22);
+  padding: 15px 80px;
+  border: 1px solid #fff;
+  border-radius: 120px;
+}
+.Guide-line:hover{
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #000;
+  transition: 0.5s;
 }
 /***** review *****/
 .main-txt {
@@ -275,7 +287,7 @@ header .header-txt {
   font-size: var(--font-size-40);
   font-weight: 700;
   color: #29f2ff;
-  margin: 150px auto;
+  margin: 200px auto;
 }
 .review-container {
   width: 80%;
