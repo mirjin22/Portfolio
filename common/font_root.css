@@ -6,6 +6,8 @@
     "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   --eng-font: "Josefin Sans", "Pretendard Variable", "Pretendard", sans-serif;
+  --two-font: "Plus Jakarta Sans", "Pretendard Variable", "Pretendard",
+    sans-serif;
   --font-size-12: 12px;
   --font-size-14: 14px;
   --font-size-16: 16px;
@@ -20,7 +22,7 @@
   --font-size-34: 34px;
   --font-size-38: 1.979vw;
   --font-size-40: 2.083vw;
-  --font-size-48: 2.5vw;
+  --font-size-48: 48px;
   --font-size-60: 3.125vw;
   --font-size-78: 78px;
   --font-size-90: 90px;
