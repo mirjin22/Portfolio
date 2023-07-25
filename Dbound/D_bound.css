@@ -28,7 +28,12 @@ header .Ex {
   z-index: 9999;
 }
 .header.active {
-  display: none;
+  display: flex;
+  transition: 0.5s;
+  background-color: rgba(245, 245, 245, 0.9);
+}
+.header.show {
+  background: none;
 }
 .header .logo-svg {
   cursor: pointer;
@@ -41,6 +46,9 @@ header .Ex {
   font-weight: 700;
   height: 100%;
   margin: 0 80px 0 0;
+}
+.header .header-menu a:nth-child(4) {
+  margin: 0;
 }
 .header .header-menu a::after {
   content: "";
@@ -100,7 +108,8 @@ header .Ex {
   display: flex;
   align-items: flex-end;
   position: relative;
-  z-index: -1;
+  z-index: -30;
+  opacity: 0;
 }
 .designer-container .designer-wrapper1 {
   white-space: nowrap;
@@ -212,6 +221,7 @@ header .Ex {
 .card-container {
   height: fit-content;
   padding: 200px 100px 90px;
+  opacity: 0;
 }
 .card-container p {
   font-size: 16px;
@@ -262,6 +272,7 @@ header .Ex {
   padding-bottom: 200px;
   padding-left: 0;
   padding-right: 0;
+  opacity: 0;
 }
 .project-container .project-head {
   width: 100%;
@@ -286,6 +297,8 @@ header .Ex {
 }
 .project-container .project-head .project-total {
   align-items: center;
+  cursor: pointer;
+  width: fit-content;
 }
 .project-container .project-head .project-total .project-num {
   font-size: 348px;
@@ -413,6 +426,7 @@ header .Ex {
   background-color: #f5f5f5;
   position: relative;
   z-index: 20;
+  opacity: 0;
 }
 .service-container .service-header h1 {
   font-size: 100px;
@@ -598,6 +612,7 @@ header .Ex {
   padding: 625px 100px 200px;
   overflow: hidden;
   height: fit-content;
+  opacity: 0;
 }
 .client-header {
   align-items: flex-end;
@@ -652,6 +667,7 @@ header .Ex {
   background-color: #2c2c2c;
   z-index: 11;
   position: relative;
+  opacity: 0;
 }
 .contact-container p {
   font-size: var(--font-size-48);
@@ -729,13 +745,39 @@ footer .ft2 li:nth-child(2) {
   font-weight: 500;
   margin-top: 12px;
 }
+
+/***** event *****/
 .blob {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 0;
-  transition: 1s ease;
+  z-index: -29;
+  transition: 0.2s ease;
   height: 932px;
   width: 932px;
   pointer-events: none;
+}
+.designer-container.active {
+  opacity: 1;
+  transition: 0.5s;
+}
+.card-container.active {
+  opacity: 1;
+  transition: 0.5s;
+}
+.project-container.active {
+  opacity: 1;
+  transition: 0.5s;
+}
+.service-container.active {
+  opacity: 1;
+  transition: 0.5s;
+}
+.client-container.active {
+  opacity: 1;
+  transition: 0.5s;
+}
+.contact-container.active {
+  opacity: 1;
+  transition: 0.5s;
 }
