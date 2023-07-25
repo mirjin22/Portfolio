@@ -9,6 +9,12 @@ $(window).on("mousemove", () => {
   $(".bolb").fadein();
   console.log(moving);
 });
-// $().on("mouseleave", function(){
-//   $('.bolb').fadeOut();
-// });
+const header = queryselector(".header");
+$(window).on("scroll", () => {
+  if (scrollY < 1) {
+    $(".header").addClass("active");
+  } else {
+    $(".header").removeClass("active");
+  }
+  console.log(header.offsetTop);
+});

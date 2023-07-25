@@ -27,6 +27,9 @@ header .Ex {
   left: 0;
   z-index: 9999;
 }
+.header.active {
+  display: none;
+}
 .header .logo-svg {
   cursor: pointer;
 }
