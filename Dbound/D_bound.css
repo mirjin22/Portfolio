@@ -97,6 +97,7 @@ header .Ex {
   display: flex;
   align-items: flex-end;
   position: relative;
+  z-index: -1;
 }
 .designer-container .designer-wrapper1 {
   white-space: nowrap;
@@ -226,6 +227,7 @@ header .Ex {
   height: 422px;
   margin-left: auto;
   cursor: pointer;
+  position: relative;
 }
 .card-container .card-wrapper .card-inner h3 {
   font-size: 73px;
@@ -406,6 +408,7 @@ header .Ex {
 .service-container {
   padding: 175px 100px 150px;
   background-color: #f5f5f5;
+  position: relative;
   z-index: 20;
 }
 .service-container .service-header h1 {
@@ -697,6 +700,7 @@ footer {
   padding: 64px 100px;
   border-top: 1px solid #434343;
   justify-content: space-between;
+  position: relative;
 }
 footer .ft1 {
   flex-direction: column;
@@ -721,4 +725,14 @@ footer .ft2 li:nth-child(2) {
   font-size: var(--font-size-14);
   font-weight: 500;
   margin-top: 12px;
+}
+.blob {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 1s ease;
+  height: 932px;
+  width: 932px;
+  pointer-events: none;
 }
