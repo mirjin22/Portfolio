@@ -349,27 +349,35 @@ header .Ex {
   width: 300%;
   height: 100%;
   animation: slide1 50s infinite linear;
+  animation-delay: -25s;
 }
 .ani2 {
-  /* animation: slide2 10s infinite linear; */
-  animation-delay: -25s;
+  position: absolute;
+  align-items: center;
+  white-space: nowrap;
+  background: none;
+  overflow: hidden;
+  width: max-content;
+  width: 300%;
+  height: 100%;
+  animation: slide2 50s infinite linear;
 }
 @keyframes slide1 {
   0% {
     transform: translateX(0%);
   }
-  50% {
-    transform: translateX(-20%);
+  100% {
+    transform: translateX(-25%);
   }
 }
-/* @keyframes slide2 {
+@keyframes slide2 {
   0% {
     transform: translateX(0%);
   }
-  50% {
-    transform: translateX(-10%);
+  100% {
+    transform: translateX(25%);
   }
-} */
+}
 .project-item {
   width: 600px;
   height: 100%;
