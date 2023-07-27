@@ -135,29 +135,48 @@ header .Ex {
   content: "{";
 }
 .designer-container .designer-wrapper1 .designer-txt {
-  width: 100%;
   overflow: hidden;
-display: inline-block;
+  padding: 0px 0.75rem;
+  height: 6.25rem;
+  display: block;
 }
-.designer-container .designer-wrapper1 .designer-txt .box2{
-  /* padding: 0.25rem 0.75rem;
-  height:2.81rem;
-  margin-bottom: 2.81rem; */
+.designer-container .designer-wrapper1 .designer-txt .box2 {
+  height: 6.5rem;
 }
 .designer-container .designer-wrapper1 .designer-txt .box2:first-child {
-  animation: text-animation  8s infinite;
+  animation: text-animation 8s linear infinite;
 }
 @keyframes text-animation {
-  0% {margin-top: 0;}
-  10% {margin-top: 0;}
-  20% {margin-top: -5.62rem;}
-  30% {margin-top: -5.62rem;}
-  40% {margin-top: -11.24rem;}
-  60% {margin-top: -11.24rem;}
-  70% {margin-top: -5.62rem;}
-  80% {margin-top: -5.62rem;}
-  90% {margin-top: 0;}
-  100% {margin-top: 0;}
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: -6.5rem;
+  }
+  30% {
+    margin-top: -6.5rem;
+  }
+  40% {
+    margin-top: -13rem;
+  }
+  60% {
+    margin-top: -13rem;
+  }
+  70% {
+    margin-top: -6.5rem;
+  }
+  80% {
+    margin-top: -6.5rem;
+  }
+  90% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
 }
 /* .designer-container .designer-wrapper1 .designer-txt .on {
   display: none;
