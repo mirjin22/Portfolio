@@ -186,11 +186,11 @@ header .header-video .video-wrapper video {
   color: #29f2ff;
   margin-top: 5px;
   overflow: hidden;
-  min-width: 1800px;
+  max-width: 1920px;
   font-family: var(--kor-font);
 }
 .slide-word .slide-middle {
-  width: 500%;
+  width: 520%;
   display: flex;
   justify-content: space-around;
   animation: ani_2 30s infinite linear;
