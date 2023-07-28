@@ -100,6 +100,7 @@ header .Ex {
 }
 
 /***** designer *****/
+
 .designer-container {
   background: #f5f5f5;
   width: 100%;
@@ -120,7 +121,7 @@ header .Ex {
   color: #393939;
   position: absolute;
   top: 50%;
-  /* left: calc((100% - 1720px) / 2); */
+  left: calc((100% - 1720px) / 2);
   left: 5%;
   transform: translate(0, -50%);
   overflow: hidden;
@@ -128,17 +129,17 @@ header .Ex {
 .designer-container .designer-wrapper1 .designer-inner {
   position: relative;
 }
-.designer-container .designer-wrapper1 .box2::after {
+.designer-container .designer-wrapper1 .designer-txt::after {
   content: "}";
 }
-.designer-container .designer-wrapper1 .box2::before {
+.designer-container .designer-wrapper1 .designer-txt::before {
   content: "{";
 }
 .designer-container .designer-wrapper1 .designer-txt {
   overflow: hidden;
   padding: 0px 0.75rem;
   height: 6.25rem;
-  display: block;
+  width: fit-content;
 }
 .designer-container .designer-wrapper1 .designer-txt .box2 {
   height: 6.5rem;
@@ -182,8 +183,8 @@ header .Ex {
   display: none;
   display: block;
   animation: show 5s linear infinite;
-} */
-
+}
+*/
 /* ********* */
 .designer-container .designer-wrapper1 .box6 {
   display: flex;

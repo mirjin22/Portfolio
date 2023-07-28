@@ -163,3 +163,7 @@ $(window).on("scroll", () => {
   }
   console.log(container6.offsetTop);
 });
+
+const txt = document.querySelector("designer-txt");
+
+$(window);
