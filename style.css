@@ -190,7 +190,7 @@ header .header-video .video-wrapper video {
   font-family: var(--kor-font);
 }
 .slide-word .slide-middle {
-  width: 500%;
+  width: 510%;
   display: flex;
   justify-content: space-around;
   animation: ani_2 30s infinite linear;
