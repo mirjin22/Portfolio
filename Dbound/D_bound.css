@@ -127,19 +127,17 @@ header .Ex {
   overflow: hidden;
 }
 .designer-container .designer-wrapper1 .designer-inner {
-  position: relative;
 }
-.designer-container .designer-wrapper1 .designer-txt::after {
+.designer-container .designer-wrapper1 .box2::after {
   content: "}";
 }
-.designer-container .designer-wrapper1 .designer-txt::before {
+.designer-container .designer-wrapper1 .box2::before {
   content: "{";
 }
 .designer-container .designer-wrapper1 .designer-txt {
   overflow: hidden;
   padding: 0px 0.75rem;
   height: 6.25rem;
-  width: fit-content;
 }
 .designer-container .designer-wrapper1 .designer-txt .box2 {
   height: 6.5rem;
