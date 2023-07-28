@@ -193,7 +193,7 @@ header .header-video .video-wrapper video {
   width: 550%;
   display: flex;
   justify-content: space-around;
-  animation: ani_2 10s infinite linear;
+  animation: ani_2 30s infinite linear;
 }
 .slide-word .slide-ani-left,
 .slide-word .slide-ani-right {
