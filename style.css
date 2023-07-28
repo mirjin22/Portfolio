@@ -190,8 +190,9 @@ header .header-video .video-wrapper video {
   font-family: var(--kor-font);
 }
 .slide-word .slide-middle {
-  width: 550%;
+  width: 500%;
   display: flex;
+  min-width: 1800px;
   justify-content: space-around;
   animation: ani_2 30s infinite linear;
 }
@@ -201,7 +202,7 @@ header .header-video .video-wrapper video {
   display: flex;
 }
 .slide-word img {
-  margin: 12px 0 0 380px;
+  margin: 12px 0 0 300px;
   width: 50px;
   height: 50px;
 }
