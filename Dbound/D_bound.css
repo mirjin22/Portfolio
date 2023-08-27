@@ -160,6 +160,7 @@ header .Ex {
   }
   30% {
     margin-top: -6.5rem;
+    width: 0;
   }
   40% {
     transition: 0.5s;
