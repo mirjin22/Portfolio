@@ -190,7 +190,7 @@ header .header-video .video-wrapper video {
   font-family: var(--kor-font);
 }
 .slide-word .slide-middle {
-  width: 500%;
+  width: 560%;
   display: flex;
   min-width: 1800px;
   justify-content: space-around;
@@ -202,13 +202,14 @@ header .header-video .video-wrapper video {
   display: flex;
 }
 .slide-word img {
-  margin: 12px 0 0 300px;
+  margin: 6px 0 6px 300px;
   width: 50px;
   height: 50px;
 }
 .slide-word span {
   font-size: var(--font-size-60);
   margin-left: 15px;
+  margin-top: 80px;
 }
 @keyframes ani_2 {
   0% {

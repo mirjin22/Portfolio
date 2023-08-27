@@ -77,7 +77,7 @@ $(window).on("scroll", () => {
   console.log(h1.offsetTop);
 });
 $(window).on("scroll", () => {
-  if (scrollY < 6900) {
+  if (scrollY < 6200) {
     $(".footer").removeClass("active");
   } else {
     $(".footer").addClass("active");
